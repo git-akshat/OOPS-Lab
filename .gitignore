@@ -46,6 +46,7 @@
 
 # others
 .vscode
+*.cbp
 bin
 obj
 
