@@ -1,6 +1,6 @@
 ##  OOP LAB QUESTION BANK
 
-1. Write a C++ program to create a class to represent entities of type Circle, specied by its attributes radius and coordinates of its center. Include appropriate Constructors and display methods. Also write a friend function that determines whether two circles intersect one another or they touch each other or
+1. Write a C++ program to create a class to represent entities of type Circle, specified by its attributes radius and coordinates of its center. Include appropriate Constructors and display methods. Also write a friend function that determines whether two circles intersect one another or they touch each other or
 they are disjoint.
 
 
@@ -26,7 +26,7 @@ they are disjoint.
     - Create an array of RainGauge objects in main and display the results
 
 
-4. Write a class to represent entities of type **Fraction** with appropriate data members. Include a method simplify that simpes a given fraction ( for eg: 6/8 to 3/4). Overload the following operators:
+4. Write a class to represent entities of type **Fraction** with appropriate data members. Include a method **simplify** that simplifies a given fraction ( for eg: 6/8 to 3/4). Overload the following operators:
     - ```>>``` to read a fraction object.
     - ```<<``` to display a fraction object.
     - ```==``` to check if two fractions are the same.
@@ -35,10 +35,10 @@ they are disjoint.
     Illustrate these operations in main function.
 
 
-5. Write a C++ program to create a class called EXPRESSION which can store an arithmetic expression in both inx and postx representations. Implement the following methods in the class.
-    - Read and store an inx expression (input expression assumed to be valid)
-    - convert to postx representation
-    - display the expressions in both inx and postx representations.
+5. Write a C++ program to create a class called EXPRESSION which can store an arithmetic expression in both infix and postfix representations. Implement the following methods in the class.
+    - Read and store an infix expression (input expression assumed to be valid)
+    - convert to postfix representation
+    - display the expressions in both infix and postfix representations.
 
     The expression is supposed to contain the operators + - * / only, along with the open and close parentheses.
 
@@ -63,7 +63,7 @@ they are disjoint.
     - To display bank account details with balance.
 
 
-8. Write a C++ program that reads contents from two text les that are specied as command line arguments and create a le by name \merge.txt". Read one line at a time from each input le in an alternate manner and write to the output le till you have reached the end.
+8. Write a C++ program that reads contents from two text files that are specified as command line arguments and create a file by name \merge.txt". Read one line at a time from each input file in an alternate manner and write to the output file till you have reached the end.
 
     A **Sample** output is shown here:
 
@@ -71,8 +71,8 @@ they are disjoint.
     ----------------|-----------------------|-----------------------|
     abcdeabc        |       12345678        |       abcdeabc        |
     fghijfgh        |       67890123        |       fghijfgh        |
-    -               |-                      |       12345678        |
-    -               |-                      |       67890123        |
+    _               |_                      |       12345678        |
+    _               |_                      |       67890123        |
 
 
 9. Write a C++ program to create class called MATRIX using a two dimensional array of integers. Implement the following operations by overloading the operator ```==``` which checks the compatibility of two matrices m1 and m2 to be added and subtracted. Perform the addition and subtraction by overloading the operator ```+``` and ```{``` respectively. Display the results (sum matrix m3 and difference matrix m4) by overloading the operator ```<<```.
@@ -106,17 +106,17 @@ they are disjoint.
     - the combined resistance for two resistors connected in parallel is the reciprocal of the sum of the individual reciprocal of the resistances.
 
 
-13. Design and develop a ITEM class with itemName, itemCode, itemPrize, numberOfItems (itemCount) as data members. Implement suitable methods Working with Files: demonstrate the following file operations:
-    - Writing an object at the end of file
-    - Reading all objects from a file and display on console
-    - Update a given object information on the file
+13. Design and develop a ITEM class with itemName, itemCode, itemPrize, numberOfItems (itemCount) as data members. Implement suitable methods Working with Files: demonstrate the following file operations:
+    - Writing an object at the end of file
+    - Reading all objects from a file and display on console
+    - Update a given object information on the file
 
 
 14. Write a C++ program to perform the following string operations by using the C++ string library.
     - Parameterized and copy constructor
     - Compare two string objects
     - Find substring in a main string
-    - Return the position of the rst occurrence a given substring in the string.
+    - Return the position of the first occurrence a given substring in the string.
     - Return the position of the last occurrence a given substring in the string
     - Insert a given substring at the end of main string
     - Swap content of two given strings
